@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcasts</title>
+    <link rel="stylesheet" href="style-podcast.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="poppins-semibold">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="podcast.html">Podcasts</a>
+                <li><a href="#">Resources</a>
+                    <ul>
+                        <li><a href="https://www.youtube.com/@Education4Alll">Youtube Channel</a></li>
+                        <li><a href="https://t.me/education4all6_8">Education4All</a></li>
+                        <li><a href="https://t.me/education4allfr6_8">Education4All French</a></li>
+                        <li><a href="https://t.me/education4allDE6_8">Education4All German</a></li>
+                        <li><a href="https://t.me/education4all66_8">Education4All Group</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="podcasts">
+        <div class="podcast-category">
+            <h1 class="category-title">Education4All French</h1>
+            <div class="video-container">
+                <div class="video-wrapper" data-src="https://www.youtube.com/embed/ZtW7ywEx_uo">
+                    <img src="https://img.youtube.com/vi/ZtW7ywEx_uo/maxresdefault.jpg" alt="Video Thumbnail">
+                    <div class="play-button"></div>
+                </div>
+            </div>
+            <div class="video-container">
+                <div class="video-wrapper" data-src="https://www.youtube.com/embed/oXCOpJE92YM">
+                    <img src="https://img.youtube.com/vi/oXCOpJE92YM/maxresdefault.jpg" alt="Video Thumbnail">
+                    <div class="play-button"></div>
+                </div>
+            </div>
+            <div class="video-container">
+                <div class="video-wrapper" data-src="https://www.youtube.com/embed/bARaYb-5iok">
+                    <img src="https://img.youtube.com/vi/bARaYb-5iok/maxresdefault.jpg" alt="Video Thumbnail">
+                    <div class="play-button"></div>
+                </div>
+            </div>
+            <div class="video-container">
+                <div class="video-wrapper" data-src="https://www.youtube.com/embed/blR_8zLMl18">
+                    <img src="https://img.youtube.com/vi/blR_8zLMl18/maxresdefault.jpg" alt="Video Thumbnail">
+                    <div class="play-button"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="podcast-category">
+            <h1 class="category-title">Education4All German</h1>
+            <div class="video-container">
+                <div class="video-wrapper" data-src="https://www.youtube.com/embed/gsLRP3uMtFE">
+                    <img src="https://img.youtube.com/vi/gsLRP3uMtFE/maxresdefault.jpg" alt="Video Thumbnail">
+                    <div class="play-button"></div>
+                </div>
+            </div>
+            <div class="video-container">
+                <div class="video-wrapper" data-src="https://www.youtube.com/embed/RcMHmhm7kZg">
+                    <img src="https://img.youtube.com/vi/RcMHmhm7kZg/maxresdefault.jpg" alt="Video Thumbnail">
+                    <div class="play-button"></div>
+                </div>
+            </div>
+            <div class="video-container">
+                <div class="video-wrapper" data-src="https://www.youtube.com/embed/tLcll1hz6aA">
+                    <img src="https://img.youtube.com/vi/tLcll1hz6aA/maxresdefault.jpg" alt="Video Thumbnail">
+                    <div class="play-button"></div>
+                </div>
+            </div>
+            <div class="video-container">
+                <div class="video-wrapper" data-src="https://www.youtube.com/embed/3Lrokt9P6wM">
+                    <img src="https://img.youtube.com/vi/3Lrokt9P6wM/maxresdefault.jpg" alt="Video Thumbnail">
+                    <div class="play-button"></div>
+                </div>
+            </div>            
+        </div>
+    </section>
+
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe id="videoIframe" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
